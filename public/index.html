@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>EventPass — tickets that can't be screenshotted</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Figtree:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+  <nav class="site-nav" aria-label="Primary">
+    <div class="w">
+      <a class="brand" href="#/">EventPass</a>
+      <div class="links" id="nav-links"></div>
+      <div class="nav-right" id="nav-right"></div>
+    </div>
+  </nav>
+  <div id="lock-banner" class="lock-banner" role="status" hidden></div>
+  <div id="app"></div>
+  <nav class="mobile-tabs" id="mobile-tabs" aria-label="Mobile"></nav>
+  <div id="toast" class="toast" hidden></div>
+  <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.3/build/qrcode.min.js"></script>
+  <script src="https://unpkg.com/html5-qrcode@2.3.8/html5-qrcode.min.js"></script>
+  <script src="/js/pass.js"></script>
+  <script src="/js/organizer.js"></script>
+  <script src="/js/scanner.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>
